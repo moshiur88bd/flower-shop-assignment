@@ -2,7 +2,200 @@ body{
       font-family: 'Lato', sans-serif;
 }
 
-h1{
+/*banner related style*/
+
+.banner{
+      background: #e554731a;
+      margin: 0;
+      padding: 0;
+}
+
+
+.banner-container{
+      display: flex;
+      align-items: center;
+      padding: 50px 200px 0 200px;
+      gap: 50px;
+      
+}
+
+.banner-welcome{
+     
+      width: 60%;
+}
+.banner-title{
+      color: rgb(39, 39, 39);
+      font-size: 65px;
+      font-weight: 700;
+      text-align: left;
+      width: 650px;
+      margin-bottom: 20px;
+}
+
+.banner-description{
+      color: #27272799;
+      font-size: 15px;
+      font-weight: 400;
+      text-align: left;
+}
+
+.banner-btn{
+      color: #ffffff;
+      font-size : 15px;
+      font-weight: 700;
+      text-align: center;
+      border: 0;
+      border-radius: 5px;
+      background: rgb(229, 84, 115);
+      padding: 16px 32px;
+}
+
+
+
+.banner-flower img{
+      height: 520px;
+}
+
+/* Main body Related Style*/
+
+/*Featured related Style*/
+
+.featured-title{
+      color: rgb(39, 39, 39);
       font-size: 30px;
-      color: red;
+      font-weight: 800;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 20px;
+}
+
+.featured-description{
+      color: rgba(39, 39, 39, 0.6);
+      font-size: 15px;
+      font-weight: 400;
+      text-align: center;
+      max-width: 530px;
+      margin: auto;
+}
+
+.featured-container{
+      margin: 0 240px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+}
+
+.featured-container-bg1{
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(167, 33, 98, 0.15);
+      height: 350px;
+}
+.featured-container-bg2{
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(5, 151, 160, 0.15);
+      height: 350px;
+      width: 300px;
+      align-items: start;
+}
+.featured-container-bg3{
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(71, 125, 17, 0.15);
+      height: 350px;
+}
+
+
+
+.featured-items img{
+      height: 328px;
+      align-items: center;
+      padding: 20px 30px 0 30px;
+      margin-bottom: 0;
+}
+
+.featured-items h4{
+      color: rgb(39, 39, 39);
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      text-decoration-line: underline;
+}
+
+/*Support Section related style*/
+
+.support{
+margin: 50px 220px 50px 240px;
+}
+
+.support-section{
+      display: flex;
+      width: 620px;
+      gap: 10px;
+      border-radius: 8px;
+      background: rgba(39, 39, 39, 0.05);
+      justify-content: space-around;
+      padding: 50px 150px;
+
+
+}
+
+/*discount related style*/
+
+.discount-section{
+      margin-top: 100px;
+}
+.discount-container{
+      display: flex;
+      border-radius: 8px;
+      background: rgba(229, 84, 115, 0.05);
+      padding: 100px 200px;
+      gap: 50px;
+      
+}
+span{
+      color: rgb(229, 84, 115) ;
+
+}
+
+.signup-btn{
+      display: flex;
+      margin: auto;
+      margin-top: 30px;
+}
+.discount-details p{
+      padding-left: 50px;
+}
+
+
+/* social related style*/
+
+.social-section-pic{
+      display: flex;
+      margin: 0 200px;
+      gap: 10px;
+      
+}
+
+.featured-description{
+      margin-bottom: 40px;
+
+}
+.social-section-pic img{
+       height:270px;
+       border-radius: 3px;
+      
+}
+
+/*subscribe area style*/
+
+.subscribe-section{
+      background-image: url("/Rectangle\ 9.png");
+      background-repeat: no-repeat;
+      margin: 100px 200px;
+      padding: 20px 200px;
+      background-size: cover;
+}
+#input-email{
+      width: 100px;
+   margin: auto;
 }
